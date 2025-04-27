@@ -54,6 +54,7 @@ backend/MeetingsApi/**/publish/
 
 # === Frontend (Angular/Node) Ignore ===
 
+frontend/.vscode
 # Dependency directories
 frontend/node_modules/
 
