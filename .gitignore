@@ -1,10 +1,12 @@
-# === Global Ignore Rules ===
+# === Global Ignore ===
 
-# System Files
+# System files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# IDE Files
+# IDE/editor configs
 .vscode/
 .idea/
 
@@ -14,42 +16,43 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment Files
+# Environment files
 .env
 .env.*
+*.env
 
-# === Backend (.NET) Ignore Rules ===
+# === Backend (.NET Core) Ignore ===
 
-# Build folders
-backend/bin/
-backend/obj/
-backend/**/bin/
-backend/**/obj/
+# Build output folders
+backend/MeetingsApi/bin/
+backend/MeetingsApi/obj/
+backend/MeetingsApi/**/bin/
+backend/MeetingsApi/**/obj/
+
+# Visual Studio folder
+backend/.vs/
+backend/MeetingsApi/.vscode/
 
 # User-specific files
-backend/*.user
-backend/*.suo
-backend/*.userosscache
-backend/*.sln.docstates
+backend/MeetingsApi/*.user
+backend/MeetingsApi/*.suo
+backend/MeetingsApi/*.userosscache
+backend/MeetingsApi/*.sln.docstates
 
-# Visual Studio folders
-backend/.vs/
-backend/.vscode/
+# ASP.NET temporary folders
+backend/MeetingsApi/wwwroot/
 
 # Test results
-backend/TestResults/
-
-# ASP.NET temporary files
-backend/wwwroot/
+backend/MeetingsApi/TestResults/
 
 # Rider and ReSharper
-backend/.idea/
-backend/ReSharper/
+backend/MeetingsApi/.idea/
+backend/MeetingsApi/ReSharper/
 
 # Publish folders
-backend/**/publish/
+backend/MeetingsApi/**/publish/
 
-# === Frontend (Angular/Node) Ignore Rules ===
+# === Frontend (Angular/Node) Ignore ===
 
 # Dependency directories
 frontend/node_modules/
@@ -58,23 +61,16 @@ frontend/node_modules/
 frontend/dist/
 frontend/tmp/
 frontend/out-tsc/
+frontend/.angular/
 
-# Environment files
+# Frontend environment files
 frontend/.env
 frontend/.env.local
 frontend/.env.*.local
 
-# Angular build cache
-frontend/.angular/
-
 # Other frontend cache
 frontend/.cache/
 
-# Optional npm files
+# Optional npm/yarn lock files (you can keep or ignore them)
 frontend/package-lock.json
 frontend/yarn.lock
-
-# === Optional: OS Files ===
-ehthumbs.db
-Icon?
-Desktop.ini
