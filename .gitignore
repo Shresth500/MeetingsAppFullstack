@@ -73,5 +73,4 @@ frontend/.env.*.local
 frontend/.cache/
 
 # Optional npm/yarn lock files (you can keep or ignore them)
-frontend/package-lock.json
 frontend/yarn.lock
