@@ -24,37 +24,37 @@ yarn-error.log*
 # === Backend (.NET Core) Ignore ===
 
 # Build output folders
-backend/MeetingsApi/bin/
-backend/MeetingsApi/obj/
-backend/MeetingsApi/**/bin/
-backend/MeetingsApi/**/obj/
+backend/MeetingsAPI/bin/
+backend/MeetingsAPI/obj/
+backend/MeetingsAPI/**/bin/
+backend/MeetingsAPI/**/obj/
 
 # Visual Studio folder
 backend/.vs/
-backend/MeetingsApi/.vscode/
+backend/MeetingsAPI/.vscode/
 
 # User-specific files
-backend/MeetingsApi/*.user
-backend/MeetingsApi/*.suo
-backend/MeetingsApi/*.userosscache
-backend/MeetingsApi/*.sln.docstates
+backend/MeetingsAPI/*.user
+backend/MeetingsAPI/*.suo
+backend/MeetingsAPI/*.userosscache
+backend/MeetingsAPI/*.sln.docstates
 
 # ASP.NET temporary folders
-backend/MeetingsApi/wwwroot/
+backend/MeetingsAPI/wwwroot/
 
 # Test results
-backend/MeetingsApi/TestResults/
+backend/MeetingsAPI/TestResults/
 
 # Rider and ReSharper
-backend/MeetingsApi/.idea/
-backend/MeetingsApi/ReSharper/
+backend/MeetingsAPI/.idea/
+backend/MeetingsAPI/ReSharper/
 
 # Publish folders
-backend/MeetingsApi/**/publish/
+backend/MeetingsAPI/**/publish/
 
 # === Frontend (Angular/Node) Ignore ===
 
-frontend/.vscode
+frontend/.vscode/
 # Dependency directories
 frontend/node_modules/
 
